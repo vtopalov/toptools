@@ -3,148 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Домейнът toptools.bg се продава!</title>
+    <title>TopTools.bg - История и Продажба</title>
     <style>
-        :root {
-            --primary: #ffcc00; /* Оригиналното жълто */
-            --dark: #1a1a1a;
-            --gray: #333;
-            --white: #ffffff;
-        }
+        :root { --yellow: #ffcc00; --black: #1a1a1a; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; color: #333; }
+        
+        header { background: var(--black); color: white; padding: 60px 20px; text-align: center; border-bottom: 5px solid var(--yellow); }
+        .logo { font-size: 3.5rem; font-weight: 900; }
+        .logo span { color: var(--yellow); }
 
-        body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--dark);
-            color: var(--white);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
+        .container { max-width: 1100px; margin: -40px auto 50px; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        
+        .badge { background: var(--yellow); color: black; padding: 5px 15px; font-weight: bold; border-radius: 4px; text-transform: uppercase; }
+        
+        .history-section { margin-top: 40px; }
+        .history-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 30px; margin-top: 20px; }
+        .history-item { border: 1px solid #ddd; padding: 10px; background: #fff; text-align: center; }
+        .history-item img { width: 100%; height: auto; border: 1px solid #eee; }
+        .history-item p { font-style: italic; color: #666; margin-top: 10px; }
 
-        .container {
-            max-width: 800px;
-            padding: 40px;
-            border: 2px solid var(--primary);
-            border-radius: 15px;
-            background: rgba(255, 255, 255, 0.05);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-        }
-
-        .logo-text {
-            font-size: 3.5rem;
-            font-weight: 900;
-            letter-spacing: -2px;
-            margin-bottom: 10px;
-        }
-
-        .logo-text span {
-            color: var(--primary);
-        }
-
-        .status-badge {
-            background: var(--primary);
-            color: var(--dark);
-            padding: 5px 15px;
-            font-weight: bold;
-            border-radius: 50px;
-            display: inline-block;
-            margin-bottom: 30px;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-        }
-
-        h2 {
-            font-size: 1.8rem;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 1.1rem;
-            color: #ccc;
-            line-height: 1.6;
-        }
-
-        .benefits {
-            display: flex;
-            justify-content: space-around;
-            margin: 40px 0;
-            text-align: left;
-        }
-
-        .benefit-item {
-            font-size: 0.9rem;
-        }
-
-        .benefit-item span {
-            color: var(--primary);
-            display: block;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .contact-box {
-            background: var(--primary);
-            color: var(--dark);
-            padding: 25px;
-            border-radius: 10px;
-            text-decoration: none;
-            display: inline-block;
-            font-weight: bold;
-            font-size: 1.3rem;
-            transition: transform 0.3s ease;
-        }
-
-        .contact-box:hover {
-            transform: translateY(-5px);
-        }
-
-        footer {
-            margin-top: 30px;
-            font-size: 0.8rem;
-            color: #666;
-        }
+        .sell-box { background: #fff9e6; border: 2px dashed var(--yellow); padding: 30px; text-align: center; margin-top: 50px; border-radius: 10px; }
+        .btn-contact { background: var(--black); color: var(--yellow); padding: 15px 35px; text-decoration: none; font-weight: bold; font-size: 1.2rem; border-radius: 5px; display: inline-block; margin-top: 20px; }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <div class="status-badge">Домейнът е свободен за прехвърляне</div>
-        
-        <div class="logo-text">TOP<span>TOOLS</span>.BG</div>
-        
-        <h2>Търсите перфектното име за вашия бизнес с инструменти?</h2>
-        
-        <p>Този премиум домейн е идеален за онлайн магазин за професионална техника, строителни инструменти или сервизна дейност.</p>
+<header>
+    <div class="logo">TOP<span>TOOLS</span>.BG</div>
+    <p>Един от утвърдените брандове за инструменти в България</p>
+</header>
 
-        <div class="benefits">
-            <div class="benefit-item">
-                <span>SEO Авторитет</span>
-                Кратко и запомнящо се име.
+<div class="container">
+    <span class="badge">Бизнес портфолио</span>
+    <h2>История на проекта</h2>
+    <p>TopTools.bg дълги години беше водеща дестинация за професионалисти и хоби майстори. Проектът включваше богат каталог от електроинструменти, градинска техника и консумативи.</p>
+
+    <div class="history-section">
+        <div class="history-grid">
+            <div class="history-item">
+                <img src="history1.jpg" alt="Архивна версия 1">
+                <p>Визия на началната страница (Източник: Web Archive 2024)</p>
             </div>
-            <div class="benefit-item">
-                <span>Доверие</span>
-                Разпознаваем бранд в нишата.
-            </div>
-            <div class="benefit-item">
-                <span>Локация</span>
-                Таргетира директно BG пазара.
+            <div class="history-item">
+                <img src="history2.jpg" alt="Архивна версия 2">
+                <p>Продуктов каталог и категории</p>
             </div>
         </div>
-
-        <a href="mailto:toptools.bg@gmail.com?subject=Inquiry for toptools.bg" class="contact-box">
-            ИЗПРАТИ ЗАПИТВАНЕ СЕГА
-        </a>
-
-        <footer>
-            &copy; 2026 toptools.bg. Всички права запазени.
-        </footer>
     </div>
+
+    <div class="sell-box">
+        <h3>Домейнът и брандът се продават</h3>
+        <p>Идеален актив за стартиране на нов онлайн магазин или разширяване на съществуващ бизнес с готова SEO история.</p>
+        <a href="mailto:vtopalov@gmail.com?subject=Запитване за TopTools.bg" class="btn-contact">СВЪРЖЕТЕ СЕ СЪС СОБСТВЕНИКА</a>
+    </div>
+</div>
+
+<footer style="text-align: center; color: #999; padding-bottom: 20px;">
+    &copy; 2026 toptools.bg | Прехвърляне чрез нотариален договор или по споразумение.
+</footer>
 
 </body>
 </html>
-
-
